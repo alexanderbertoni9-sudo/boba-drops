@@ -94,11 +94,11 @@ body {
 }
 
 .large{
-    transition: ease 0.6s ;
+    transition: ease 0.4s ;
 }
 
 .large:hover{
-    transform: scale(1.5);
+    transform: scale(1.4);
 }
 
 button{
@@ -107,5 +107,25 @@ button{
     font-size: 30px;
     color: #f7efe6;
     background-color: #5a3e2b;
-    margin-bottom: 20px;
+    margin: 20px;
 }
+
+button:hover{
+    color: #5a3e2b;
+    background-color: #f7efe6;
+}
+
+.image-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    justify-content: center;
+}
+
+.image-grid img{
+    width: auto;
+    height: 250px;
+    padding: 15px;
+}
+
